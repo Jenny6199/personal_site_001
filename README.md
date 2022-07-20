@@ -1,2 +1,4 @@
 # personal_site_001
-this repository was create for development my pesronal page
+Developer: Maksim_Sapunov, Jenny6199@yandex.ru
+Description: This repository was created for development my personal page.
+Started: 20.07.2022
