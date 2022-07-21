@@ -1,3 +1,6 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def main(request):
+    """Шаблон главной страницы"""
+    return render(request, 'mainapp/index.html')
