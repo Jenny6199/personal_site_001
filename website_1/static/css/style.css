@@ -22,9 +22,54 @@
 footer {
     min-height: 10vh;
     background-color: honeydew;
+    border: 1px dotted black;
 }
 
 header {
-    height: 200px;
     background-color: honeydew;
+    border: 1px dotted black;
+    font-size: 64px;
+}
+
+
+.header_text {
+    margin: 0 auto;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: black;
+    text-decoration: none;
+    font-size: 64px;
+    font-weight: bold;
+    text-shadow: -5px 5px 3px grey;
+    width: 600px;
+}
+
+.flex {
+    display: flex;
+}
+
+.left_column {
+    width: 20%;
+    margin: 1vh 1vh 1vh 0vh;
+
+}
+
+.right_column {
+    width: 80%;
+    margin: 1vh 0vh 1vh 0vh;
+}
+
+.full-height {
+    height: 75vh;
+}
+
+context {
+    display: flex;
+    flex-direction: row;
+    min-height: 55vh;
+    margin: 1vh auto;
+}
+
+.center {
+    margin: 0 auto;
 }
