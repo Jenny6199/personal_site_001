@@ -1,1 +1,30 @@
-# CSS
+
+.container {
+	width: 1366px;
+	margin: 0 auto;
+	min-height: 100%;
+}
+
+.box {
+    border: 1px solid black;
+}
+
+.visual {
+    min-width: 200px;
+    margin-bottom: 16px;
+}
+
+.wrapper {
+    min-height: 89vh;
+    background-color: aquamarine;
+}
+
+footer {
+    min-height: 10vh;
+    background-color: honeydew;
+}
+
+header {
+    height: 200px;
+    background-color: honeydew;
+}
