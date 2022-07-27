@@ -1,3 +1,6 @@
+body {
+    background-color: cornsilk;
+}
 
 .container {
 	width: 1366px;
@@ -51,12 +54,14 @@ header {
 .left_column {
     width: 20%;
     margin: 1vh 1vh 1vh 0vh;
+    background-image: none;
 
 }
 
 .right_column {
     width: 80%;
     margin: 1vh 0vh 1vh 0vh;
+    background-image: none;
 }
 
 .full-height {
