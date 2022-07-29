@@ -1,10 +1,10 @@
 {% extends 'mainapp/base.html' %}
 {% load static %}
 {% block content %}
-    <div class="" id="menu-box">
+    <div id="menu-box" class="" >
         {% include 'includes/inc_menu.html' %}
     </div>
-    <div class="context flex" id="context-box">
+    <div id="context-box" class="context flex" >
         <div class="left_column box full-height base_color">
             <div class="column_text">
                 <ul class="column_list">
@@ -17,7 +17,7 @@
                     <li><a href="#">ссылка</a></li>
                     <li><a href="#">ссылка</a></li>
                     <li><a href="#">ссылка</a></li>
-                    <li><a href="menu-box">ссылка</a></li>
+                    <li><a href="#up">вверх</a></li>
                 </ul>
             </div>
         </div>
@@ -50,8 +50,42 @@
             </div>
         </div>
     </div>
-    <div class="block box base_color visual" id="button-box">
-        Блок с кнопками
+    <div id="card-box" class="card-box" >
+        <div id="card_1" class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="изображение 1">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary center">Go somewhere</a>
+            </div>
+        </div>
 
+        <div id="card_2" class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="изображение 2">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary center">Go somewhere</a>
+            </div>
+        </div>
+
+        <div id="card_3" class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="изображение 3">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-warning">Go somewhere</a>
+            </div>
+        </div>
+
+        <div id="card_4" class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="изображение 4">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-danger">Go somewhere</a>
+            </div>
+        </div>
     </div>
+    <div id="add-box" class="add-box base_color block visual"></div>
 {% endblock content %}

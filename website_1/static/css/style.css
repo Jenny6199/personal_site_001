@@ -51,6 +51,7 @@ header {
 
 .flex {
     display: flex;
+    flex-direction: row;
 }
 
 .block {
@@ -172,4 +173,10 @@ context {
 }
 
 
-/* Title button*/
+/* button-box */
+.card-box {
+    display: flex;
+    justify-content: space-around;
+    opacity: 0.9;
+    margin-bottom: 1em;
+}
