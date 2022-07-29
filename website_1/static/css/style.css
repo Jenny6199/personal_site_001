@@ -16,7 +16,7 @@ body {
 }
 
 .visual {
-    min-width: 200px;
+    min-height: 200px;
     margin-bottom: 16px;
 }
 
@@ -37,7 +37,6 @@ header {
     font-size: 64px;
 }
 
-
 .header_text {
     margin: 0 auto;
     padding-top: 2vh;
@@ -54,17 +53,24 @@ header {
     display: flex;
 }
 
+.block {
+    display: block;
+}
+
+.base_color {
+    background-color: mintcream;
+    opacity: 0.7;
+}
+
 .left_column {
     width: fit-content;
     margin: 0vh 1vh 1vh 0vh;
-    background-color: mintcream;
     opacity: 0.7;
 }
 
 .right_column {
     width: 111em;
     margin: 0vh 0vh 1vh 0vh;
-    background-color: mintcream;
     opacity: 0.7;
 }
 
@@ -164,3 +170,6 @@ context {
         margin: 0 30px;
     }
 }
+
+
+/* Title button*/

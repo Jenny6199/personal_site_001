@@ -1,11 +1,11 @@
 {% extends 'mainapp/base.html' %}
 {% load static %}
 {% block content %}
-    <div class="">
+    <div class="" id="menu-box">
         {% include 'includes/inc_menu.html' %}
     </div>
-    <div class="context flex">
-        <div class="left_column box full-height">
+    <div class="context flex" id="context-box">
+        <div class="left_column box full-height base_color">
             <div class="column_text">
                 <ul class="column_list">
                     <li><a href="#">ссылка</a></li>
@@ -17,11 +17,11 @@
                     <li><a href="#">ссылка</a></li>
                     <li><a href="#">ссылка</a></li>
                     <li><a href="#">ссылка</a></li>
-                    <li><a href="#">ссылка</a></li>
+                    <li><a href="menu-box">ссылка</a></li>
                 </ul>
             </div>
         </div>
-        <div class="right_column box full-height">
+        <div class="right_column box full-height base_color">
             <div class="column_text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid dolores eveniet facilis id ipsa
                 laudantium natus quia veritatis vitae! A adipisci, aliquam assumenda cum dignissimos dolores dolorum
@@ -46,21 +46,11 @@
                 reiciendis sapiente sed ut voluptas. Accusamus alias architecto aspernatur aut corporis debitis
                 distinctio earum esse in inventore ipsam, laborum libero magnam maxime molestias odio officia omnis
                 optio perferendis provident qui quo reiciendis rem sapiente, ullam ut, vero voluptates? A, amet beatae
-                dolores eaque eius fuga fugiat illo impedit ipsum iste magnam nostrum numquam obcaecati officia quasi
-                reprehenderit similique. Deleniti error molestiae voluptate. Ab accusamus accusantium beatae cumque
-                delectus, deleniti deserunt dicta doloremque ducimus enim eos esse est et ex exercitationem facilis fuga
-                fugiat harum impedit iste libero minus molestias nemo neque nesciunt nostrum numquam odit placeat,
-                quidem ratione rerum, saepe sapiente sed similique totam voluptate voluptatem! Aliquam facilis fugiat
-                neque rem ullam? A, autem delectus iusto molestias mollitia natus nihil nisi omnis porro praesentium
-                quas quia repudiandae sunt tempore tenetur! Accusantium amet cupiditate debitis deleniti dicta,
-                dignissimos doloribus earum esse, expedita facere facilis illum impedit ipsum iusto maxime natus non
-                numquam odit omnis, quam quas qui recusandae similique tempore ullam voluptate voluptatem voluptatibus!
-                Ad, aliquid assumenda aut earum error exercitationem explicabo iure molestiae mollitia neque omnis quo
-                ratione suscipit totam ullam velit voluptates. Eum explicabo iste perspiciatis praesentium quia
-                recusandae reiciendis! Ab accusantium alias assumenda beatae blanditiis, consectetur consequuntur
-                cupiditate delectus deleniti dignissimos dolore doloremque ducimus excepturi fuga hic incidunt natus
-                nisi non odit pariatur placeat possimus rem reprehenderit repudiandae sapiente suscipit
+                dolores eaque eius fuga fugiat illo impedit ipsum iste magnam nostrum numquam obcaecati officia quas
             </div>
         </div>
+    </div>
+    <div class="block box base_color visual" id="button-box">
+        Блок с кнопками
     </div>
 {% endblock content %}
